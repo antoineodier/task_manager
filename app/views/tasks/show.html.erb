@@ -1,4 +1,4 @@
-% @tasks.each do |task| %>
+<% @tasks.each do |task| %>
 <h2>Task: <%= task.name %></h2>
 <p>Date: <%= task.date %></p>
 <p>Time:<%= task.time %></p>
@@ -7,5 +7,5 @@
 <% end %>
 
 <h1>
-  <%= link_to "Index", index_path %>
+  <%= link_to "Index", tasks_path %>
 </h1>
